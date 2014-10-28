@@ -1,0 +1,48 @@
+ex08
+
+10/20
+
+-1
+la bibliothèque (library) doit être dans le répertoire lib
+library ex08;
+
+-1
+import '../lib/class.ex08.dart';
+part '../lib/functions.dart';
+utiliser le nom du paquet (package) et non une position relative
+
+8.1
+voir
+https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-core.List#id_sort
+pour une solution plus simple
+
+-1
+  List members = [
+    {"associationName": "CS", "firstName": "Jared", "lastName": "Banks", "email": "jbanks@gmail.com"},
+    {"associationName": "CS", "firstName": "James", "lastName": "Cunningham", "email": "jcunn@gmail.com"},
+    {"associationName": "IS", "firstName": "David", "lastName": "Gosselin", "email": "dgoss@gmail.com"},
+    {"associationName": "IS", "firstName": "Dzenan", "lastName": "Ridjanovic", "email": "dr@gmail.com"},
+    {"associationName": "CS", "firstName": "Frank", "lastName": "Gooster", "email": "fgooster@gmail.com"},
+    {"associationName": "CS", "firstName": "Jimmy", "lastName": "Gauthier", "email": "jimgau@gmail.com"},
+    {"associationName": "IS", "firstName": "Rob", "lastName": "Bolduc", "email": "rbold@gmail.com"},
+    {"associationName": "IS", "firstName": "Pierre", "lastName": "Galhagher", "email": "pgalh@gmail.com"}
+  ];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+8.2
+-3  
+pas un modèle de classe
+-2
+modèle non utilisé
