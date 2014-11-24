@@ -1,6 +1,4 @@
-library ex08;
-import '../lib/class.ex08.dart';
-part '../lib/functions.dart';
+import 'package:ex08/functions.dart';
 
 void main() {
 
