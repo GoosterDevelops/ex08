@@ -1,5 +1,42 @@
 ex08
 
+15/20
+
+8.1
+-1
+  List members = [
+    {"associationName": "CS", "firstName": "Jared", "lastName": "Banks", "email": "jbanks@gmail.com"},
+    {"associationName": "CS", "firstName": "James", "lastName": "Cunningham", "email": "jcunn@gmail.com"},
+    {"associationName": "IS", "firstName": "David", "lastName": "Gosselin", "email": "dgoss@gmail.com"},
+    {"associationName": "IS", "firstName": "Dzenan", "lastName": "Ridjanovic", "email": "dr@gmail.com"},
+    {"associationName": "CS", "firstName": "Frank", "lastName": "Gooster", "email": "fgooster@gmail.com"},
+    {"associationName": "CS", "firstName": "Jimmy", "lastName": "Gauthier", "email": "jimgau@gmail.com"},
+    {"associationName": "IS", "firstName": "Rob", "lastName": "Bolduc", "email": "rbold@gmail.com"},
+    {"associationName": "IS", "firstName": "Pierre", "lastName": "Galhagher", "email": "pgalh@gmail.com"}
+  ];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+8.2
+class.ex08.dart
+-->
+classEx08.dart
+
+-2
+pas de classes pour les membres (Membre) et les associations (Association)
+une seule classe (AssociationMembers)
+
+-2
+la seule classe ne est pas utilisé pour ajouter, supprimer et mettre à jour des données
+
+---
+
 10/20
 
 -1
